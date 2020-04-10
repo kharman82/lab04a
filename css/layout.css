@@ -1,0 +1,41 @@
+
+#figuresContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        background: darkorchid;
+        
+    }
+
+    #sectionContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        background: darkturquoise;
+
+    }
+
+    #articlesContainer {
+        display: flex;
+        flex-direction: row;
+        background: deeppink;
+
+    }
+
+    /* Desktop */
+@media (min-width: 1025px) and (max-width: 1281px) {
+
+    #figuresContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background: lightseagreen;
+    }
+}
